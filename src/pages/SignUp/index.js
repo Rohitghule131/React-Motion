@@ -75,6 +75,7 @@ const SignUp = () => {
               }} />
           )}
           <h1
+          className="name-in-header"
           style={{
             transform: `translate3d(${100}px, ${100}px, 0)`
           }}
