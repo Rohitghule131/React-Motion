@@ -1,14 +1,14 @@
 import React from 'react';
-const SignUP = React.lazy(() => import("../pages/SignUp"));
-const SignIn = React.lazy(() => import("../pages/SignIn"));
-const SprintPactice = React.lazy(() => import("../pages/PracticeSpring"));
+const SprinGPactice = React.lazy(() => import("../pages/PracticeSpring"));
+const MotionPractice = React.lazy(() => import("../pages/MotionPractice"));
+const StaggeredMotion = React.lazy(() => import("../pages/StarggeredMotionPractice"));
 
 function App() {
   return (
     <div className="App">
-      <SprintPactice/>
-      {/* <SignUP />
-      <SignIn /> */}
+      <StaggeredMotion/>
+      <SprinGPactice/>
+      <MotionPractice/>
     </div>
   );
 }

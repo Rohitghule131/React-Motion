@@ -1,0 +1,35 @@
+.motion-image{
+    width: 90%;
+    height: 100%;
+}
+
+.motion-contianer{
+    display: flex;
+}
+
+.div-container > div{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 19px;
+    padding: 50px;
+    font-size: large;
+}
+
+.dropdown-style{
+    float: right;
+    width: 150px;
+    height: 38px;
+    font-size: initial;
+    border-radius: 10px;
+}
+
+.stffness-damping-presets-style{
+    float: right;
+    margin-right: 100px;
+}
+
+.stffness-damping-presets-style > div{
+    margin: 15px;   
+}
